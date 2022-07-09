@@ -278,10 +278,10 @@ hr {
 }
 
 .current {
-  margin-top: -3rem;
+
   margin-bottom: 2rem;
   background-color: rgba(5, 78, 33, 0.2);
-  padding: 1rem 0;
+
   text-align: center;
 
   display: grid;
