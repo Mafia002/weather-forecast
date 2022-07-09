@@ -228,7 +228,7 @@ hr {
 .desc,
 .feels {
   text-align: center;
-  padding-top: 2rem;
+ 
 }
 .timeZone {
   grid-area: title;
@@ -290,10 +290,9 @@ hr {
   grid-template-columns:  .7fr .3fr   ; */
   grid-template-areas:
     ". title . "
-    "icon desc temp "
-    "wind hum ."
-    "min max feel"
-    ". low .";
+    "max icon min "
+    "wind temp ."
+    "hum desc feel";
 }
 
 .searchbar{
