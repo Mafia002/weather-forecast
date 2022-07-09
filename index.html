@@ -36,12 +36,11 @@
     <script src="js/main.js" type="module" defer></script>
 
     <title>weather</title>
-
   </head>
-
-<body>
+  <body>
     <ion-content>
-
+      <main>
+        <h1 class="offscreen">open weather</h1>
 
         <section class="searchbar">
           <div id="current-condition" class="current"></div>
@@ -63,7 +62,6 @@
             </button>
           </form>
 
-<<<<<<< HEAD
       
         </section>
         <a href="#currentforecast" class="skiplink offscreen"
@@ -141,62 +139,4 @@
       </main>
     </ion-content>
   </body>
-=======
-                </div>
-                <form id="form" class="form">
-                    <label class="offscreen" for="searchbox" >enter a new location</label>
-                    <input id="text" class="text" type="text" role="searchbox" size="40" placeholder="city,state,country,zipcode">
-                    <button id="button" class="btn">
-                        <i class="fa fa-search ico"></i>
-                        <i class="fas fa-sync fa-spin none"></i>
-                    </button>
-                </form>
-
-            
-                    <i class="wi wi-night-showers"></i>
-                    <i class="wi wi-hot"></i>
-                    <i class="wi wi-night-showers"></i>
-            
-            </section>
-            <a href="#currentforecast" class="skiplink offscreen">skip to current condition</a>
-            <section class="currentforcast" id="currentforecast" role="region" aria-labelledby="currentforcast">
-                <h2 class="current-title" id="currentlocation">current condition</h2>
-                
-            
-                
-            </section>
-            <a href="#daily" class="skiplink offscreen">skip to forecast</a>
-            <nav id="navbuttons" class="navbuttons">
-                <button id="getloc" class="btn" title="get loction" aria-label="get the current weather conditions for your loction">
-                    <i class="fas fa-map-marker-alt"></i>
-                    <i class="fas fa-sync fa-spin none"></i>
-                </button>
-                <button id="home" class="btn" title="home weather" aria-label="get the current weather conditions for home">
-                    <i class="fas fa-home"></i>
-                    <i class="fas fa-sync fa-spin none"></i>
-                </button>
-                <button id="saveloc" class="btn" title="save loction" aria-label="save the current weather conditions for home">
-                    <i class="fas fa-save"></i>
-                    <i class="fas fa-sync fa-spin none"></i>
-                </button>
-                <button id="unit" class="btn" title="toggle units" aria-label="toggle units">
-                    <i class="fas fa-chart-bar"></i>
-                    <i class="fas fa-sync fa-spin none"></i>
-                </button>
-                <button id="refresh" class="btn" title="refresh weather" aria-label="refresh weather">
-                    <i class="fas fa-sync-alt"></i>
-                    <i class="fas fa-sync fa-spin none"></i>
-                </button>
-            </nav>
-            <!-- <hr> -->
-                <section class="dailyforecast" id="dailyforecast" role="region" aria-labelledby="dailyforecast">
-                    
-                <h2 id="dailyforecast-title" class="dailyforecast-title offscreen">six day forecast</h2>
-                <div class="dailyforecast-content" id="dailyforecast-content"></div>
-            </section>
-            <p id="confirmation" class="offscreen" aria-live="assertive"></p> 
-        </main>
-    </ion-content>
-</body>
->>>>>>> 2aab65c988f97ef59ceb4a9dec028dc9a4baf7a3
 </html>
